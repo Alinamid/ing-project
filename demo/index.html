@@ -15,16 +15,14 @@
   <script type="module">
     import { html, render } from 'lit';
     import '../ing-project.js';
-
-    const header = 'Hello owc World!';
-    render(
-      html`
-        <ing-project .header=${header}>
-          some light-dom
-        </ing-project>
-      `,
-      document.querySelector('#demo')
-    );
+    import '../src/my-footer.js';
+    import '../src/my-header.js';
+    import '../ing-project.js';
   </script>
+    <my-header></my-header>
+  <main>
+    Content
+  </main>
+  <my-footer></my-footer>
 </body>
 </html>
