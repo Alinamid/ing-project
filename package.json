@@ -16,6 +16,8 @@
     "start": "web-dev-server"
   },
   "dependencies": {
+    "@lion/button": "^0.18.1",
+    "@lion/input": "^0.18.0",
     "lit": "^3.1.4"
   },
   "devDependencies": {
